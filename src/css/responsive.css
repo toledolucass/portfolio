@@ -1,0 +1,27 @@
+@media(max-width: 1280px){
+    
+    #home{
+        flex-direction: column;
+        margin-top: 4rem;
+        gap: 50px;
+    }
+
+    #home .info{
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+}
+
+@media(max-width: 500px){
+
+    html{
+        font-size: 13px;
+    }
+
+    body{
+        width: 80%;
+    }
+
+}
